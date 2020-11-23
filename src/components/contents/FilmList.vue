@@ -10,14 +10,12 @@
     </v-row>
     <v-row>
       <v-col cols="4" v-for="(film, i) in filmLists" :key="i">
-        <div class="box">
-          <div
-            style="background-color: gray; width: 190px; height:190px;"
-            class="d-flex align-end"
-          >
-            <div style="background-color: black; color:white; width:100%;">
-              {{ film.source.name }}
-            </div>
+        <div
+          style="background-color: gray; width: 190px; height:190px;"
+          class="d-flex align-end"
+        >
+          <div style="background-color: black; color:white; width:100%;">
+            {{ film.source.name }}
           </div>
         </div>
       </v-col>
